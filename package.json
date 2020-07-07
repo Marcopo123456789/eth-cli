@@ -1,5 +1,5 @@
 {
-  "name": "etherless-cli-repo-test",
+  "name": "@marcopo123456789/etherless-cli-repo-test",
   "version": "1.0.0",
   "description": "Module to which the developer interacts with ​etherless​.",
   "scripts": {
