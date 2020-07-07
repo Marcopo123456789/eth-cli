@@ -1,0 +1,49 @@
+{
+  "name": "etherless-cli-repo-test",
+  "version": "1.0.0",
+  "description": "Module to which the developer interacts with ​etherless​.",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --coverage --verbose --detectOpenHandles",
+    "lint": "eslint src/*/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcopo123456789/eth-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "./build/index.js",
+  "bin": {
+    "etherless": "./build/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Marcopo123456789/eth-cli/issues"
+  },
+  "homepage": "https://github.com/Marcopo123456789/eth-cli#readme",
+  "dependencies": {
+    "@types/configstore": "^4.0.0",
+    "@types/inquirer": "^6.5.0",
+    "@types/node": "^13.13.12",
+    "@types/yargs": "^15.0.4",
+    "acorn": "^7.2.0",
+    "configstore": "^5.0.1",
+    "ethers": "^4.0.47",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "ipfs-mini": "^1.1.5",
+    "ts-node": "^8.9.1",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "@typescript-eslint/eslint-plugin": "^2.29.0",
+    "@typescript-eslint/parser": "^2.29.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  }
+}
