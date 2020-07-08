@@ -1,6 +1,6 @@
 {
   "name": "@marcopo123456789/etherless-cli-repo-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module to which the developer interacts with ​etherless​.",
   "scripts": {
     "build": "tsc",
