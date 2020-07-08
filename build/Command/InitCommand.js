@@ -21,7 +21,7 @@ class InitCommand extends Command_1.default {
     }
     exec(args) {
         return __awaiter(this, void 0, void 0, function* () {
-            return 'Welcome to ehterless-cli \nList of commands, use etherless <command name>: \n>login \n>logout \n>signup \n>whoami';
+            return 'Welcome to etherless-cli \nList of commands, use etherless <command name>: \n>login \n>logout \n>signup \n>whoami \n>run \n>deploy';
         });
     }
     builder(yargs) {
